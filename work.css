@@ -1,0 +1,145 @@
+/*
+class : .name
+id : #name
+the box model : border-top;border-width: 0px,,,,,;
+                padding :space beetween text and the border
+                margin: space between the box modle and other box "always in default value"
+display : 
+         inline : all the tag in inline element "we don"t have ability to change width"
+         block : not in same line
+         inline-block: inline with the ability to change width
+         none : not display
+position :
+          static position : go along with the html rules and keep with the default
+          relative : (position : relative; left..;)left "go right" top "go to bollom"...
+                    space bettwen "left right.." and the lefted position
+          absolute :position relative to its parrent "right 30px means betwen right parent and left element 30px"
+          fixec position: stay in the same position in all time
+for change posoition of all element we use :
+    text-align;"centre everithing but if dosn"t have a witdth set if have a width set we use :
+            marfin: 0 auto 0 auto
+
+
+
+*/
+.h4{
+    display: inline-flex;
+    position: fixed;
+
+    width: 150px;
+    background-color: darkgoldenrod;
+background-attachment: fixed;
+
+}
+body{
+    margin: 0;
+    text-align: center;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+}
+.profil{
+    width: 400px;
+    height: 600px;
+    display: inline-block;
+}
+#picture{
+    position: relative; 
+    padding-top: 20px;
+}
+.cloudt{
+    position: absolute;
+    right: 20%;
+    top: 6px;
+}
+.cloud{
+    position: absolute;
+left: 20%;
+}
+#div1{
+    background-color: rgb(128, 230, 224);
+
+
+}
+#imd{
+   position: relative;
+   left: 50px;
+}
+footer {
+background-color: aqua;background: size 25px;;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font: 1em sans-serif;
+background-position: bottom;
+font-size: 25px;
+border-radius: 12px double rgba(20, 207, 192, 0.706);
+display: inline;
+border-radius: 0in;
+}
+a:link{
+color: black;
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover{
+    animation:both;
+    color: brown;
+text-transform: uppercase;
+outline-offset: 5px;
+} 
+hr{
+    border-color: khaki;
+    border-style: dotted none none none;
+    height: 0px;
+    border-width: 4px;
+    width: 15%;
+}
+#d{
+    position: absolute;
+
+    width: 200px;
+    height: 200px;
+    background-color: rgb(10, 233, 40);
+
+    margin: 0px;
+}
+#d1{
+    position: absolute;
+    bottom: 200px;
+    right: 200px;;
+    margin:0px;
+    width: 200px;
+    height: 200px;
+
+background-image: repeating-linear-gradient(rgb(155, 201, 223),rgb(19, 230, 159));
+}
+#d2{
+position: absolute;
+right: 400px;
+bottom: 400px;
+    margin: 0px;
+
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    color: yellow;
+}
+.tab{
+    width: 155px;
+    display: inline-block;
+}
+#ff{
+    width: 800px;
+    height: 800px;
+    position: relative;
+    top: auto;
+}
+.forom{
+    width: 220px;
+    height: 400px;
+    margin: 0 auto 0 auto;
+    background-color: blueviolet;
+
+}
+.sss{
+    background-color: blueviolet;
+}
